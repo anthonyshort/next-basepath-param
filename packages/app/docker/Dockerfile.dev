@@ -1,0 +1,8 @@
+##
+## Dockerfile used for development to run quoting-app.
+##
+FROM newfront/node-dev:0.1.0
+
+WORKDIR /home/app/packages/app
+
+CMD ["dev"]
